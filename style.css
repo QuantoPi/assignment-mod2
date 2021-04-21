@@ -35,7 +35,7 @@ h1{
 	border: 2px solid white;
 	border-radius: 10px;
 }
-@media (max-width: 750px) {
+@media (max-width: 690px) {
 	.container {
 		flex-direction: column;
 	}
