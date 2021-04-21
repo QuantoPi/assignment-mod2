@@ -1,0 +1,42 @@
+body{
+	font-family: verdana;
+	background: rgb(248,248,250);
+	background: linear-gradient(192deg, rgba(248,248,250,1) 0%, rgba(54,198,157,1) 35%, rgba(0,212,255,1) 82%);
+	color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1{
+	padding: 10px;
+	text-align: center;
+}
+* {
+	box-sizing: border-box;
+}
+.container {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+}
+.boxleft {
+	flex: 50%;
+}
+.boxright {
+	flex: 50%;
+}
+.mainBoxStyle {
+	background-color: rgba(0,0,0,0.2);
+	padding: 15px;
+	margin: 10px;
+	font-size: 18px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+@media (max-width: 750px) {
+	.container {
+		flex-direction: column;
+	}
+}
